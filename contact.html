@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Contact the ClearPay team and learn how our fictional fintech platform can help your business."
+    >
+
+    <title>Contact — ClearPay</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="site-header">
+
+        <div class="container nav-wrapper">
+
+            <a href="index.html" class="logo">
+                Clear<span>Pay</span>
+            </a>
+
+            <nav class="main-nav" aria-label="Main navigation">
+
+                <a href="index.html">Home</a>
+
+                <a href="features.html">Features</a>
+
+                <a href="pricing.html">Pricing</a>
+
+                <a href="about.html">About</a>
+
+                <a href="contact.html" class="active">
+                    Contact
+                </a>
+
+            </nav>
+
+            <div class="nav-actions">
+
+                <button
+                    class="theme-toggle"
+                    id="themeToggle"
+                    aria-label="Toggle dark mode"
+                >
+                    ☾
+                </button>
+
+                <a
+                    href="contact.html"
+                    class="btn btn-small"
+                >
+                    Get Started
+                </a>
+
+                <button
+                    class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                >
+                    ☰
+                </button>
+
+            </div>
+
+        </div>
+
+        <nav
+            class="mobile-nav"
+            id="mobileNav"
+            aria-label="Mobile navigation"
+        >
+
+            <a href="index.html">Home</a>
+            <a href="features.html">Features</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="page-hero contact-hero">
+
+            <div class="container">
+
+                <p class="eyebrow">
+                    Let's talk
+                </p>
+
+                <h1>
+                    Have a question?
+                    <span>We're listening.</span>
+                </h1>
+
+                <p>
+                    Tell us a little about yourself and our
+                    fictional ClearPay team will get back to you.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section class="contact-section section-padding">
+
+            <div class="container contact-grid reveal">
+
+                <!-- CONTACT INFO -->
+
+                <div class="contact-info">
+
+                    <p class="eyebrow">
+                        Get in touch
+                    </p>
+
+                    <h2>
+                        Let's make your
+                        payments simpler.
+                    </h2>
+
+                    <p>
+                        Whether you're exploring ClearPay,
+                        looking for support, or simply have
+                        a question, we'd love to hear from you.
+                    </p>
+
+
+                    <div class="contact-details">
+
+                        <div>
+
+                            <span class="contact-icon">
+                                @
+                            </span>
+
+                            <div>
+
+                                <strong>
+                                    Email
+                                </strong>
+
+                                <a href="mailto:hello@clearpay.demo">
+                                    hello@clearpay.demo
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <div>
+
+                            <span class="contact-icon">
+                                +
+                            </span>
+
+                            <div>
+
+                                <strong>
+                                    Phone
+                                </strong>
+
+                                <span>
+                                    +1 (800) 555-0142
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div>
+
+                            <span class="contact-icon">
+                                ◉
+                            </span>
+
+                            <div>
+
+                                <strong>
+                                    Office
+                                </strong>
+
+                                <span>
+                                    New York · London · Singapore
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FORM -->
+
+                <div class="contact-form-wrapper">
+
+                    <form
+                        id="contactForm"
+                        class="contact-form"
+                        novalidate
+                    >
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+
+                                <label for="firstName">
+                                    First name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="firstName"
+                                    name="firstName"
+                                    placeholder="Fatima"
+                                    autocomplete="given-name"
+                                    required
+                                >
+
+                                <small
+                                    class="form-error"
+                                    id="firstNameError"
+                                ></small>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="lastName">
+                                    Last name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="lastName"
+                                    name="lastName"
+                                    placeholder="Abbas"
+                                    autocomplete="family-name"
+                                    required
+                                >
+
+                                <small
+                                    class="form-error"
+                                    id="lastNameError"
+                                ></small>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email address
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="you@example.com"
+                                autocomplete="email"
+                                required
+                            >
+
+                            <small
+                                class="form-error"
+                                id="emailError"
+                            ></small>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="company">
+                                Company
+                                <span>(optional)</span>
+                            </label>
+
+                            <input
+                                type="text"
+                                id="company"
+                                name="company"
+                                placeholder="Your company"
+                                autocomplete="organization"
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="subject">
+                                What can we help with?
+                            </label>
+
+                            <select
+                                id="subject"
+                                name="subject"
+                                required
+                            >
+
+                                <option value="">
+                                    Select an option
+                                </option>
+
+                                <option value="sales">
+                                    Sales & pricing
+                                </option>
+
+                                <option value="support">
+                                    Customer support
+                                </option>
+
+                                <option value="partnership">
+                                    Partnership
+                                </option>
+
+                                <option value="other">
+                                    Something else
+                                </option>
+
+                            </select>
+
+                            <small
+                                class="form-error"
+                                id="subjectError"
+                            ></small>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="message">
+                                Message
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="5"
+                                placeholder="Tell us how we can help..."
+                                required
+                            ></textarea>
+
+                            <small
+                                class="form-error"
+                                id="messageError"
+                            ></small>
+
+                        </div>
+
+
+                        <label class="checkbox-label">
+
+                            <input
+                                type="checkbox"
+                                id="consent"
+                                name="consent"
+                                required
+                            >
+
+                            <span>
+                                I agree to be contacted about my
+                                enquiry.
+                            </span>
+
+                        </label>
+
+                        <small
+                            class="form-error"
+                            id="consentError"
+                        ></small>
+
+
+                        <button
+                            type="submit"
+                            class="btn form-submit"
+                        >
+                            Send message →
+                        </button>
+
+
+                        <div
+                            class="form-success"
+                            id="formSuccess"
+                            role="status"
+                            aria-live="polite"
+                        >
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <a href="index3.html" class="logo">
+                    Clear<span>Pay</span>
+                </a>
+
+                <p>
+                    Payments, simplified.
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <div>
+
+                    <strong>Product</strong>
+
+                    <a href="features.html">
+                        Features
+                    </a>
+
+                    <a href="pricing.html">
+                        Pricing
+                    </a>
+
+                </div>
+
+                <div>
+
+                    <strong>Company</strong>
+
+                    <a href="about.html">
+                        About
+                    </a>
+
+                    <a href="contact.html">
+                        Contact
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container footer-bottom">
+
+            <span>
+                © 2026 ClearPay. Fictional demo project.
+            </span>
+
+            <span>
+                Built with HTML, CSS & JavaScript.
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
